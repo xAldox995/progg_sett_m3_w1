@@ -3,7 +3,7 @@ const MovieCard = (props) => {
     return (
         <Col>
             <img className="img-fluid movie-poster" src={props.poster} alt={props.title} />
-            <p>{props.title}</p>
+            <p className="fs-5">{props.title}</p>
           </Col>
     )
 }
