@@ -15,49 +15,49 @@ const FooterComp = function () {
         <Row className="row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4">
           <Col className="footer-links">
             <p>
-              <a href="#">Audio and Subtitles</a>
+              <a href="#void">Audio and Subtitles</a>
             </p>
             <p>
-              <a href="#">Media Center</a>
+              <a href="#void">Media Center</a>
             </p>
             <p>
-              <a href="#">Privacy</a>
+              <a href="#null">Privacy</a>
             </p>
             <p>
-              <a href="#">Contact us</a>
+              <a href="#void">Contact us</a>
             </p>
           </Col>
           <div className="col footer-links">
             <p>
-              <a href="#">Audio Description</a>
+              <a href="#void">Audio Description</a>
             </p>
             <p>
-              <a href="#">Investor Relations</a>
+              <a href="#void">Investor Relations</a>
             </p>
             <p>
-              <a href="#">Legal Notices</a>
-            </p>
-          </div>
-          <div className="col footer-links">
-            <p>
-              <a href="#">Help Center</a>
-            </p>
-            <p>
-              <a href="#">Jobs</a>
-            </p>
-            <p>
-              <a href="#">Cookie Preferences</a>
+              <a href="#void">Legal Notices</a>
             </p>
           </div>
           <div className="col footer-links">
             <p>
-              <a href="#">Gift Cards</a>
+              <a href="#void">Help Center</a>
             </p>
             <p>
-              <a href="#">Terms of Use</a>
+              <a href="#void">Jobs</a>
             </p>
             <p>
-              <a href="#">Corporate Information</a>
+              <a href="#void">Cookie Preferences</a>
+            </p>
+          </div>
+          <div className="col footer-links">
+            <p>
+              <a href="#void">Gift Cards</a>
+            </p>
+            <p>
+              <a href="#void">Terms of Use</a>
+            </p>
+            <p>
+              <a href="#void">Corporate Information</a>
             </p>
           </div>
         </Row>
