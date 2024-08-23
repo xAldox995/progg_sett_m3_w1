@@ -31,7 +31,7 @@ class NavComponent extends Component {
           </Nav>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-auto">
+            <Nav className="ms-auto d-flex flex-row">
               <Nav.Link className="ms-4" href="#">
                 <i className="bi bi-search"></i>
               </Nav.Link>
