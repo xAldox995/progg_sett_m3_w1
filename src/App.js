@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import NavComponent from './components/NavComponent';
+import FooterComp from './components/FooterComp';
 
 function App() {
   return (
@@ -10,12 +11,12 @@ function App() {
         <NavComponent />
       </header>
 
-      <main bg="dark">
+      <main className='bg-dark'>
 
       </main>
 
-      <footer bg="dark">
-
+      <footer>
+        <FooterComp />
       </footer>
     </>
   );
