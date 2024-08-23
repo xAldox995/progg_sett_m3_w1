@@ -25,8 +25,8 @@ class MoviesComp extends Component {
   }
   render() {
     return (
-      <div className="my-5 text-light fs-3 fw-medium">
-        <p>{this.props.title}</p>
+      <div className="my-5 text-light">
+        <h2>{this.props.title}</h2>
         <Row xs={2} md={3} lg={6} className="g-3">
           {/* <Col>
             <img src="https://placedog.net/275" alt="bau" />
