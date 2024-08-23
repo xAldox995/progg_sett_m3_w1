@@ -1,7 +1,11 @@
 body {
   background-color: rgb(33, 37, 41);
-  overflow: hidden;
 }
+
+body::-webkit-scrollbar {
+  display: none; /* Per Chrome, Safari e Opera */
+}
+
 .App {
   text-align: center;
 }
