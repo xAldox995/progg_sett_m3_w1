@@ -12,7 +12,7 @@ function App() {
         <NavComponent />
       </header>
 
-      <main className='bg-dark'>
+      <main>
         <MoviesComp title='Star Wars Saga' urlForFetch='https://www.omdbapi.com/?i=tt3896198&apikey=a145b183&s=Star%20Wars' />
         <MoviesComp title='Toretto Saga' urlForFetch='https://www.omdbapi.com/?i=tt3896198&apikey=a145b183&s=Fast&Furious' />
         <MoviesComp title='Harry Potter Saga' urlForFetch='https://www.omdbapi.com/?i=tt3896198&apikey=a145b183&s=Harry%20Potter' />
